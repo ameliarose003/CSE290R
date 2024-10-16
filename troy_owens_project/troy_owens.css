@@ -1,0 +1,18 @@
+header footer {
+    background-color: rgb(79, 68, 125);
+    color: white;
+}
+
+body {
+    color: white;
+    background-color: black;
+    align-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: grid;
+}
