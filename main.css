@@ -1,7 +1,71 @@
-body {
-    background-color: #FAE7EB;
+
+/* Hero Section */
+header.hero {
+    background: url('./image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
-main {
-    text-align: center;
+header nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
 }
+
+header nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header .hero-content {
+    max-width: 600px;
+}
+
+header .hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 80px;
+}
+
+header .hero-content .btn {
+    background-color: #2d57bf;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+header .hero-content .btn:hover {
+    background-color: #2c95c9;
+}
+
