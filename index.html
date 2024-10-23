@@ -3,18 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        My portfolio
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav>
+            <h1 class="logo">My Portfolio</h1>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>I am Ami Halsey</h2>
+            <p>majoring in web design and development.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </header>
-    <main>
-        <h1>
-            I am Ami Halsey, majoring in web design and development.
-        </h1>
-    </main>
+
+    <!-- Projects Section -->
+    <section id="projects" class="portfolio-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A short description of your project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A short description of your project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>A short description of your project.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>
+        Description of yourself and your background.
+    </p>
+
+    <div class="about-content">
+        <div class="skills">
+            <h3>Skills and Technologies</h3>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python</li>
+
+            </ul>
+        </div>
+        
+        <div class="coursework">
+            <h3>Relevant Coursework</h3>
+            <ul>
+                <li>list of classes I've taken</li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, please don't hesitate to contact me.</p>
+        <a href="mailto:youremail@example.com" class="btn">Email Me</a>
+    </section>
+
 </body>
-<footer>Ami Halsey</footer>
 </html>
